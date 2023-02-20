@@ -5,6 +5,7 @@ public class Regex {
         Scanner scanner = new Scanner(System.in);
         String input = scanner.nextLine();
 
+        // Tugas Regex
         patternCheck(input);
 
     }
