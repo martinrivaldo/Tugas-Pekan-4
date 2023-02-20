@@ -11,9 +11,9 @@ public class Regex {
 
 
     public static void patternCheck(String str) {
-        String emailPattern = "^[\\w-\\.]+@([\\w-]+\\.)+[\\w-]{2,4}$";
+        String emailPattern = "^[\\w-]+@([\\w-]+\\.)+[\\w-]{2,4}$";
         String datePattern1 = "\\d{2}-\\d{2}-\\d{4}";
-        String datePattern2 = "\\d{2},\\d{2},\\d{4}";
+        String datePattern2 = "^([A-Za-z]+),([A-Za-z]+),\\d{2}$";
         String ipPattern = "^([01]?\\d\\d?|2[0-4]\\d|25[0-5])\\." +
                            "([01]?\\d\\d?|2[0-4]\\d|25[0-5])\\." +
                            "([01]?\\d\\d?|2[0-4]\\d|25[0-5])\\." +
